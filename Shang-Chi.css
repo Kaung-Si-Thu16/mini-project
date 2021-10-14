@@ -1,0 +1,102 @@
+body {
+    background-color: #000;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.back-btn {
+    position: relative;
+    left: 15px;
+}
+
+.back-btn button {
+    display: block;
+    border-radius: 20px;
+    border-color: white;
+    transform: scale(1.5);
+}
+
+.back-btn a {
+    text-decoration: none;
+}
+
+.watch-now a {
+    text-decoration: none;
+}
+
+.card {
+    color: white;
+    border-style: outset;
+    border-width: 0px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-top {
+    margin-bottom: 20px;
+}
+
+.text {
+    font-weight: 200;
+    text-align: center, justify;
+}
+
+.watch-now button {
+    display: block;
+    border-radius: 20px;
+    border-color: white;
+    transform: scale(1.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    background-color: silver;
+    color: black;
+    height: 40%;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        max-width: 100%;
+    }
+    .back-btn {
+        position: relative;
+        left: 15px;
+        top: 10px;
+    }
+    .back-btn button {
+        display: block;
+        border-radius: 20px;
+        border-color: white;
+    }
+    .back-btn a {
+        text-decoration: none;
+    }
+    .card {
+        color: grey;
+        border-style: outset;
+        border-width: 0px;
+        border-radius: 10px;
+        padding: 5px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
